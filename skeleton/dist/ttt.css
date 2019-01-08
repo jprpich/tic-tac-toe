@@ -1,0 +1,33 @@
+.ttt ul {
+  background-color: grey;
+  width: 600px;
+  height: 600px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.ttt li {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.ttt li:hover{
+  background: yellow;
+}
+
+
+li {
+  font-size: 140px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.color, .ttt li.color:hover  {
+  background: white;
+
+}
